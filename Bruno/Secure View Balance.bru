@@ -1,0 +1,22 @@
+meta {
+  name: Secure View Balance
+  type: http
+  seq: 6
+}
+
+get {
+  url: http://localhost:5266/secure/view
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: CfDJ8BxjkwgLXEdJmIeWT1xPuC_WKGxTCXhCi7JoRJYzMubqh_cs-uFJCiYNXGCtA95thuTB2rjGO04IUbca7klKoCBRm0dg3Jfmbu6rc0BM-d-IRCx_hOddSIfmT5j9Kxe_4LDM5zCRQq8VGyISjjuGf2xFHVV_9w3dZa5K75Zwx6nzAamFIKbJdnDgpMo7lsmPMSL-UH0sXUIFrPGc4bqUM-MUXmt7IWiR4Lo-l7GMA_aKCXkBveg-r8dqFeBjNrRTVI6UMDG0eXRQrjCO-IJ3aNZR2TU4gdfwDlKkzzGZD9Mvm7jANJlpmdu04Q2nbFVXmqUxJAjBWtyOIzE72fjxmgiofVcMU6ui_fTQBAd5on2Xa_4G34gUFnGki9s9k2rFjzWS4NOBbXAbMTjkPjjsUlQEQSpVkKnu-8WIs5LkozICl-oa_bOdzFGxWl-FR_HqJmu2nRGtsgQJAn28iz4MhmNfhKS8VxHsqH7Z45jPXPe26mHFpzlZ0ejrC-WddLy-KakNq2oKV3a2-xhoMXlFFCAm1rnzf-kCVBgUzfBeLhhbIfcWGgK4wPLloQJ6IZGyOugDlZH9Pf1O2fZOmovKeni45ReWQGQSbXtgAx5rf3TBDa2rwwllVhG6xRLSkKMCWTsInb1WLVjUVxC8QWIoozchILtQKrJHOxo26dvM2TmkJS66FpnzzxsKwFzqEmbkanPuPwE6p9MlKzQjXKxeTqI
+}
+
+body:json {
+  {
+    "email": "superman@avengers.se",
+    "password": "TestPassword123!"
+  }
+}

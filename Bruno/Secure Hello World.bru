@@ -1,0 +1,18 @@
+meta {
+  name: Secure Hello World
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:5266/secure
+  body: none
+  auth: inherit
+}
+
+body:json {
+  {
+    "email": "superman@avengers.se",
+    "password": "TestPassword123!"
+  }
+}

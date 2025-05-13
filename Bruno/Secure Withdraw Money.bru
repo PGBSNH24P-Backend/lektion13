@@ -1,0 +1,18 @@
+meta {
+  name: Secure Withdraw Money
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:5266/secure/withdraw
+  body: none
+  auth: inherit
+}
+
+body:json {
+  {
+    "email": "superman@avengers.se",
+    "password": "TestPassword123!"
+  }
+}

@@ -1,0 +1,18 @@
+meta {
+  name: Register User
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:5266/register
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "email": "employee@avengers.se",
+    "password": "TestPassword123!"
+  }
+}

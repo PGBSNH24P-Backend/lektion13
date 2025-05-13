@@ -1,0 +1,20 @@
+meta {
+  name: Custom Register User
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:5266/user/register
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "email": "owner@avengers.se",
+    "password": "TestPassword123!",
+    "favoritefood": "Tacos",
+    "username": "Owner"
+  }
+}
